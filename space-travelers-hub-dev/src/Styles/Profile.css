@@ -1,0 +1,26 @@
+.profile {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.list li {
+  border: 1px solid #ccc;
+  width: 350px;
+  padding: 10px;
+}
+
+.list li h3 {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}

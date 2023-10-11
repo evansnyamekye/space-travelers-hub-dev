@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Missions components renders correctly 1`] = `
+<div>
+  <div
+    class="mission-page"
+  >
+    <table
+      class="missionTable"
+    >
+      <thead
+        class="missionThead"
+      >
+        <th
+          width="10%"
+        >
+          <h3>
+            Mision
+          </h3>
+        </th>
+        <th
+          width="65%"
+        >
+          <h3>
+            Description
+          </h3>
+        </th>
+        <th
+          width="12.5%"
+        >
+          <h3>
+            Status
+          </h3>
+        </th>
+        <th
+          width="12.5%"
+        >
+           
+        </th>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+</div>
+`;

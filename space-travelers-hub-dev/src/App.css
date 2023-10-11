@@ -1,0 +1,40 @@
+.navbar {
+  border-bottom: 2px gray solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Add padding for better spacing */
+  color: black;
+}
+
+.logo {
+  display: flex;
+  gap: 4px;
+  align-content: baseline;
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove bullet points from the list */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: black;
+  align-items: baseline;
+}
+
+li {
+  margin-right: 20px; /* Add margin between list items */
+  list-style-type: none;
+}
+
+.navbar a {
+  margin-right: 20px; /* Add margin between list items */
+  text-decoration: none;
+}
+
+.active {
+  font-size: larger;
+  font-weight: bolder;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
